@@ -13,9 +13,12 @@
 </head>
 <body>
     <script src="./js/balloons.js"></script>
-    <audio autoplay controls id="musica_lanita">
+    <audio id="musica_lanita">
         <source src="./src/audio/lanita_musica.mp3" type="audio/mpeg">
     </audio>
+    <div id="contenedor-inicial">
+        <button id="iniciar">Clic aquí <3</button>
+    </div>
     <div class="contenedor">
         <img src="./src/img/jane_7.png" alt="jane-2">
         <div class="texto-arriba">
@@ -49,7 +52,6 @@
     <div class="contenedor">
         <h1 class="sacramento-regular"> Tu amor incondicional, tu ternura y tu belleza interior son incomparables.</h1>
     </div>
-
     <div class="contenedor">
         <img src="./src/img/jane_6.png" alt="jane-2">
         <div class="texto-arriba">
@@ -68,8 +70,6 @@
     <div class="contenedor">
         <h1 class="sacramento-regular">Feliz cumpleaños #19 mi cielo!</h1>
     </div>
-    <script>
-        document.getElementById('musica_lanita').play();
-    </script>
+    <script src="./js/audio.js"></script>
 </body>
 </html>
