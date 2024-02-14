@@ -43,14 +43,14 @@
     left: calc(var(--balloonDimension) - 8px);
 }
 .yellow{
-    background-color: rgba(150, 150, 0, .45);
+    background-color: rgba(185, 151, 140, .45);
 }
 .green{
-    background-color: rgba(0, 150, 0, .45);
+    background-color: rgba(236, 231, 215, .45);
 }
 .blue{
-    background-color: rgba(0, 0, 150, .45);
+    background-color: rgba(187, 218, 225, .45);
 }
 .red{
-    background-color: rgba(150, 0, 0, .45);
+    background-color: rgba(150, 11, 11, .45);
 }
