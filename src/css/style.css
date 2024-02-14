@@ -7,28 +7,29 @@ html {
     margin: auto;
 }
 body {
-    background-color: #eae7de; //fondo
+    background-color: #eae7de; /*fondo*/
     display: table-cell;
     vertical-align: middle;
 }
 
 h1 {
-    color : #a4080f; //rojo
+    color : #a4080f; /*rojo*/
 }
+
 .sacramento-regular {
   font-family: "Sacramento", cursive;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
 .handlee-regular {
   font-family: "Handlee", cursive;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 
 .contenedor{
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
     text-align: center;
 }
 .texto-arriba{
@@ -46,5 +47,9 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+img {
+    width: 100%;
 }
 
