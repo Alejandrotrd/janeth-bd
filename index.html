@@ -13,7 +13,7 @@
 </head>
 <body>
     <script src="./js/balloons.js"></script>
-    <audio autoplay controls>
+    <audio autoplay controls id="musica_lanita">
         <source src="./src/audio/lanita_musica.mp3" type="audio/mpeg">
     </audio>
     <div class="contenedor">
@@ -68,5 +68,8 @@
     <div class="contenedor">
         <h1 class="sacramento-regular">Feliz cumpleaños #19 mi cielo!</h1>
     </div>
+    <script>
+        document.getElementById('musica_lanita').play();
+    </script>
 </body>
 </html>
