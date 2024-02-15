@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     boton.addEventListener('click', function() {
       fondo.style.display = 'none';
       miAudio.play();
+      window.scrollTo(0, 0);
     });
-
 
   });
