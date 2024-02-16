@@ -14,13 +14,14 @@ body {
 
 h1 {
     color : #a4080f; /*rojo*/
+    white-space: initial;
 }
 
 .sacramento-regular {
   font-family: "Sacramento", cursive;
   font-weight: 500;
   font-style: normal;
-  font-size: 40px;
+  font-size: 10vw;
 }
 .handlee-regular {
   font-family: "Handlee", cursive;
@@ -76,11 +77,11 @@ img {
     background-color: #ffffff; /* Cambia el color a tu preferencia */
     color: #333333; /* Cambia el color a tu preferencia */
     border: none;
-    border-radius: 5px;
+    border-radius: 50px;
     cursor: pointer;
     outline: none;
     font-family: "Sacramento", cursive;
     font-weight: 500;
     font-style: normal;
-    font-size: 40px;
+    font-size: 10vw;
 }
